@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import seaborn as sns
-
+import matplotlib.pyplot as plt
 from utils.clustering import kmeans, hclust
 from utils.metrics import intra_cluster_distance, inter_cluster_distance, elbow_method
 from utils.preprocessing import load_csv, manual_entry, apply_pca
