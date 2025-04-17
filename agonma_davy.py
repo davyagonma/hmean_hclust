@@ -8,10 +8,10 @@ from utils.clustering import kmeans, hclust
 from utils.metrics import intra_cluster_distance, inter_cluster_distance, elbow_method
 from utils.preprocessing import load_csv, manual_entry, apply_pca
 
-st.set_page_config(page_title="Clustering TP2", layout="wide")
+st.set_page_config(page_title="AGONMA Clustering TP2", layout="wide")
 
 st.title("🧠 TP2 - Clustering from Scratch (K-means & Hclust)")
-st.markdown("Par **Singbo Davy** – Master GL IFRI")
+st.markdown("Par **AGONMA Singbo Davy** – Master GL IFRI")
 
 # Sidebar config
 st.sidebar.title("🔧 Configuration")
