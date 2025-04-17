@@ -46,3 +46,5 @@ pip install -r requirements.txt
 
 streamlit run pages/singbo_davy.py
 
+utiliser le fichier csv "data_test.csv" si vous n'avez pas un fichier de test
+
